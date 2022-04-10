@@ -1,5 +1,8 @@
 # valorant-weapons
+
 Check out weapons and skins in Valorant
+
+live demo: <a href="https://valorant-weapons.netlify.app" >valorant-weapons</a>
 
 ![Screen Shot 1](https://gcdnb.pbrd.co/images/bZ3CPMWs0ski.png?o=1)
 
