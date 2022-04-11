@@ -40,15 +40,11 @@ const makeFilter = () => {
 const selectFilter = (type) => {
 
   if (filter.value == type) {
-
     filter.value = null
     makeFilter()
-
   } else {
-
     filter.value = type
     filteredWeapons.value = weapons.value.filter(weapon => weapon.shopData?.categoryText === type)
-
   } 
 
 }
@@ -66,7 +62,6 @@ watchEffect((onInvalidate) => {
         return weapon.displayName.toLowerCase().includes(search)
       })
       filteredWeapons.value = filtered
-
     }, 50); // Timeout for filtering
 
     onInvalidate(() => clearTimeout(typing))
