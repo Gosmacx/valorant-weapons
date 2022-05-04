@@ -49,7 +49,7 @@ const selectFilter = (type) => {
 
 }
 
-// Fake Databes Effect
+// Fake Database Effect
 // No filtering while the user is typing in the search bar
 watchEffect((onInvalidate) => {
 
